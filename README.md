@@ -1,16 +1,5 @@
-# tmdb
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Displaying a list of popular people (actors, directors ..etc) with infinite scrolling
+When a person entry is selected, a Details view is opened with the basic person info and
+grid view of his/her images
+When an image is selected, it’s opened in its original size in a new screen where the
+user can save the image locally on the phone.
