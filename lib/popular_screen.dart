@@ -7,7 +7,6 @@ class PopularScreen extends StatefulWidget {
   State<PopularScreen> createState() => _PopularScreenState();
 }
 
-// https://www.rguktong.ac.in/img/user-temp.jpg
 class _PopularScreenState extends State<PopularScreen> {
   @override
   void initState() {
@@ -16,7 +15,6 @@ class _PopularScreenState extends State<PopularScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final Size _size = MediaQuery.of(context).size;
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.transparent,
